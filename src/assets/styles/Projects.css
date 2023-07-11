@@ -1,0 +1,32 @@
+.projects-container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding-top: 5em;
+}
+
+.projects-content-container {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5em;
+    padding-top: 0;
+    background-color: bisque;
+    row-gap: 2em;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 6em;
+}
+
+.video-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-title {
+    font-weight: bold;
+}

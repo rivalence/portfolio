@@ -1,0 +1,23 @@
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    width: 60%;
+    column-gap: 3em;
+    flex-wrap: wrap;
+}
+
+.about-me-text {
+    align-self: center;
+    width: 40em;
+    padding-right: 2em;
+    background-color: bisque;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5em;
+    padding-top: 0;
+}
+
+.h3-about-me {
+    font-weight: normal;
+}
