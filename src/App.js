@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container mx-auto p-12 flex flex-col justify-center items-center'>
       <Presentation />
       <AboutMe />
       <Parcours />

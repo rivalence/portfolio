@@ -1,4 +1,3 @@
-import '../assets/styles/Projects.css'
 import IconsFade from '../components/IconsFade'
 import Icons from '../components/Icons'
 import { faArrowTurnRight, faVideo } from '@fortawesome/free-solid-svg-icons'
@@ -7,9 +6,9 @@ import demoFamille from '../assets/videos/Demo famille.mp4'
 
 function Projects() {
   return (
-    <div className='projects-container'>
-        <div className='projects-content-container'>
-            <h1>Mes projets</h1>
+    <div className='w-9/12 pt-16 flex justify-center'>
+        <div className='border border-black rounded-lg p-8 bg-orange-100'>
+            <h1 className='font-medium'>Mes projets</h1><hr className='border-gray-500 pb-8' />
             <div>
                 <p>
                     <IconsFade icon={faArrowTurnRight}/> Feecare: Réseau social privé proposant en plus, une gestion de 
@@ -23,16 +22,16 @@ function Projects() {
                     sur mon github : https://github.com/rivalence
                 </p>
 
-                <div className='video-container'>
-                    <div className='video-content'>
-                        <p className='video-title'><Icons icon={faVideo} /> Interface Educateur</p>
+                <div className='flex flex-row gap-x-16 justify-center'>
+                    <div>
+                        <p className='pt-8 font-medium pb-4'><Icons icon={faVideo} /> Interface Educateur</p>
                         <video controls width="400" height="250" src={demoEducateur}>
                             <source src={demoEducateur} type='video/mp4'/>
                         </video>
                     </div>
 
-                    <div className='video-content'>
-                        <p className='video-title'><Icons icon={faVideo} /> Interface Famille</p>
+                    <div>
+                        <p className='pt-8 font-medium pb-4'><Icons icon={faVideo} /> Interface Famille</p>
                         <video controls width="400" height="250" src={demoFamille}>
                             <source src={demoFamille} type='video/mp4'/>
                         </video>
@@ -40,7 +39,7 @@ function Projects() {
                 </div>    
             </div>
 
-            <div>
+            <div className='pt-8'>
                 <p>
                     <IconsFade icon={faArrowTurnRight}/> Codexia : Jeu mobile d'énigmes (Android et iOS), en cours de développement. Il 
                     sera très prochainement disponible. Github:  https://github.com/rivalence/codexia

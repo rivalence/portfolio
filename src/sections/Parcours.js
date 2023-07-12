@@ -1,12 +1,11 @@
-import '../assets/styles/Parcours.css'
 import IconsFade from '../components/IconsFade'
 import { faArrowTurnRight } from '@fortawesome/free-solid-svg-icons'
 
 function Parcours() {
   return (
-    <div className='parcours-container'>
-        <div className='parcours-content-container'>
-            <h1>Mon parcours</h1>
+    <div className='w-9/12 pt-16 flex justify-center'>
+        <div className='border border-black rounded-lg bg-orange-100 p-8 w-full'>
+            <h1 className='font-medium'>Mon parcours</h1><hr className='border-gray-400 pb-4' />
             
             <h2>Formations</h2>
             <ul>
@@ -18,7 +17,7 @@ function Parcours() {
                 </li>
             </ul>
 
-            <h2>Expérience professionnelle</h2>
+            <h2 className='pt-4'>Expérience professionnelle</h2>
             <ul>
                 <li>
                     <IconsFade icon={faArrowTurnRight} /> Stagiaire informatique au PMUG(Gabon) | Mars 2020 - Mai 2020
