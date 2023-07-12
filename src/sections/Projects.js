@@ -19,7 +19,7 @@ function Projects() {
                     disponibilités de ceux-ci. Cette application, développée en Symfony/PostGreSQL côté back-end et javaScript 
                     natif/BootStrap côté front-end, était pour le compte d'un projet de fin de cours en faculté.
                     Le projet n'est pas hébergé en ligne. Explorez les démos des deux interfaces ci-dessous ou accédez au code source 
-                    sur mon github : https://github.com/rivalence
+                    sur mon github : <a href='https://github.com/rivalence/feecare'>https://github.com/rivalence/feecare</a>
                 </p>
 
                 <div className='flex flex-row gap-x-16 justify-center'>
@@ -42,7 +42,7 @@ function Projects() {
             <div className='pt-8'>
                 <p>
                     <IconsFade icon={faArrowTurnRight}/> Codexia : Jeu mobile d'énigmes (Android et iOS), en cours de développement. Il 
-                    sera très prochainement disponible. Github:  https://github.com/rivalence/codexia
+                    sera très prochainement disponible. Github:  <a href='https://github.com/rivalence/codexia'>https://github.com/rivalence/codexia</a>
                 </p>
             </div>    
         </div>
