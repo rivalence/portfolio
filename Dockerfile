@@ -4,7 +4,7 @@ COPY package.json .
 COPY package-lock.json .
 RUN npm install --silent
 COPY . .
-RUN npm run builder
+RUN npm run build
 
 FROM nginx:1.19.0
 WORKDIR /usr/share/nginx/html
