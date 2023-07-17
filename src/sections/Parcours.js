@@ -3,8 +3,8 @@ import { faArrowTurnRight } from '@fortawesome/free-solid-svg-icons'
 
 function Parcours() {
   return (
-    <div className='w-full md:w-10/12 lg:w-9/12 pt-16 flex justify-center'>
-        <div className='border border-black rounded-lg bg-orange-100 p-8 w-full'>
+    <div className='w-full md:w-11/12 lg:w-11/12 pt-8 flex justify-center'>
+        <div className='border border-black rounded-lg bg-orange-100 p-4 w-full'>
             <h1>Mon parcours</h1><hr className='border-gray-400 pb-4' />
             
             <h2 className='font-medium'>Formations</h2>
@@ -17,13 +17,13 @@ function Parcours() {
                 </li>
             </ul>
 
-            <h2 className='pt-4 font-medium'>Expérience professionnelle</h2>
+            <h2 className='pt-2 font-medium'>Expérience professionnelle</h2>
             <ul>
                 <li>
                     <IconsFade icon={faArrowTurnRight} /> Stagiaire informatique au PMUG(Gabon) | Mars 2020 - Mai 2020
                 </li>
                 <li>
-                    <IconsFade icon={faArrowTurnRight} /> Développeur full stack indépendant | 2023
+                    <IconsFade icon={faArrowTurnRight} /> Développeur full stack indépendant | 2023 - Maintenant
                 </li>
             </ul>
         </div>
