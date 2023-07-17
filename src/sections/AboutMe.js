@@ -4,7 +4,12 @@ export default function AboutMe() {
     return (
         <div className='flex flex-row pt-16 gap-x-16 w-full md:w-10/12 lg:w-9/12'>
             <div>
-                <img className='rounded-3xl' src={photo2} alt='Rick NDELO'/>
+                <img 
+                    className='rounded-3xl' 
+                    srcSet='large-img.jpg 1024w, middle-img.jpg 640w, small-img.jpg 320w' 
+                    src={photo2} 
+                    alt='Rick NDELO'
+                />
             </div>
 
             <div className='w-9/12 border border-black bg-orange-100 p-8 rounded-lg'>
