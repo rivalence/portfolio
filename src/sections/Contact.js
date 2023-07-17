@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className='w-full md:w-11/12 lg:w-11/12 flex flex-col p-4 mt-8 bg-orange-100 border border-black rounded-lg'>
         <h1 className='font-medium'>Contactez-moi !</h1><hr className='border-gray-500 pb-4' />
-        <div className='flex flex-col md:flex-row gap-y-4 md:gap-x-16 lg:flex-row lg:gap-x-20 xl:flex-row xl:gap-x-44 2xl:gap-x-60'>
+        <div className='flex flex-col md:flex-row gap-y-4 md:gap-x-16 lg:gap-x-20 xl:gap-x-44 2xl:gap-x-60'>
             <div className='flex flex-col'>
                 <div className='flex flex-row'>
                     <div><IconsFade icon={faLocationDot} /></div>

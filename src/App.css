@@ -1,12 +1,32 @@
-/* pc */
-@media screen and (min-width: 1024px){
+/* most large screen */
+@media screen and (min-width: 1280px){
     h1 {
         font-size: 70px;
         font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    p, li {
+        font-size: 20px;
+    }
+}
+
+/* pc portable*/
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    h1 {
+        font-size: 70px;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     h2 {
         font-size: 28px;
+        font-weight: 800;
     }
 
     p, li {
@@ -23,10 +43,11 @@
 
     h2 {
         font-size: 18px;
+        font-weight: 800;
     }
 
     p, li {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
@@ -38,10 +59,29 @@
     }
 
     h2 {
-        font-size: 10px;
+        font-size: 14px;
+        font-weight: 800;
     }
 
     p, li {
-        font-size: 10px;
+        font-size: 12px;
     }
+}
+
+@font-face {
+    font-family: 'Irish Grover';
+    src: url('assets/fonts/IrishGrover-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('assets/fonts/Merienda-VariableFont_wght.ttf');
+}
+
+h1 {
+    font-family: 'Irish Grover';
+}
+
+h2, p, li {
+    font-family: 'Merienda';
 }

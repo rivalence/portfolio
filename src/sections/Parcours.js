@@ -7,7 +7,7 @@ function Parcours() {
         <div className='border border-black rounded-lg bg-orange-100 p-4 w-full'>
             <h1>Mon parcours</h1><hr className='border-gray-400 pb-4' />
             
-            <h2 className='font-medium'>Formations</h2>
+            <h2>Formations</h2>
             <ul>
                 <li>
                     <IconsFade icon={faArrowTurnRight} /> Licence informatique à la Faculté de sciences de Nice (UCA) | 2020 - 2022
@@ -17,7 +17,7 @@ function Parcours() {
                 </li>
             </ul>
 
-            <h2 className='pt-2 font-medium'>Expérience professionnelle</h2>
+            <h2 className='pt-2'>Expérience professionnelle</h2>
             <ul>
                 <li>
                     <IconsFade icon={faArrowTurnRight} /> Stagiaire informatique au PMUG(Gabon) | Mars 2020 - Mai 2020
