@@ -23,19 +23,22 @@ function Projects() {
                     sur mon github : <a className='hover:text-sky-700' href='https://github.com/rivalence/feecare'>https://github.com/rivalence/feecare</a>
                 </p>
 
-                <div className='flex flex-row gap-x-4 justify-center'>
+                <div className='flex flex-col md:flex-row md:gap-x-8 justify-center'>
                     <div>
                         <p className='pt-8 font-medium pb-4'><Icons icon={faVideo} /> Interface Educateur</p>
-                        <video controls width="400" height="250" src={demoEducateur}>
+                        <video controls width="400" height="250" src={demoEducateur} className='items-end'>
                             <source src={demoEducateur} type='video/mp4'/>
                         </video>
                     </div>
 
                     <div>
                         <p className='pt-8 font-medium pb-4'><Icons icon={faVideo} /> Interface Famille</p>
-                        <video controls width="400" height="250" src={demoFamille}>
-                            <source src={demoFamille} type='video/mp4'/>
-                        </video>
+                        <div className='flex items-end'>
+                            <video controls width="400" height="250" src={demoFamille} >
+                                <source src={demoFamille} type='video/mp4'/>
+                            </video>
+                        </div>
+                        
                     </div>    
                 </div>    
             </div>
