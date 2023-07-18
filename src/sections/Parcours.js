@@ -17,7 +17,7 @@ function Parcours() {
                 </li>
             </ul>
 
-            <h2 className='pt-2'>Expérience professionnelle</h2>
+            <h2 className='pt-2'>Expériences professionnelles</h2>
             <ul>
                 <li>
                     <IconsFade icon={faArrowTurnRight} /> Stagiaire informatique au PMUG(Gabon) | Mars 2020 - Mai 2020
