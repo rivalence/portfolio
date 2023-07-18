@@ -19,8 +19,9 @@ export default function AboutMe() {
                 <h1>Qui suis-je ?</h1><hr className='border-gray-400'/>
                 <p className='pt-4'>
                     Je suis Rick NDELO. Je me forme actuellement à la 3W Academy afin d'obtenir la qualification de 
-                    Concepteur Développeur d'Applications. A cet effet, je recherche une entreprise d'accueil pour une alternance de 
-                    12 mois avec un rythme de 3 semaines en entreprise et 1 semaine en cours.
+                    Concepteur Développeur d'Applications. A cet effet, je recherche une entreprise d'accueil, dans le département
+                    des Alpes Maritimes, pour une alternance de 12 mois avec un rythme de 3 semaines en entreprise et 1 semaine en 
+                    cours.
                 </p><br />
                 <h2 className='text-center'>CENTRES D'INTERÊT</h2>
 
