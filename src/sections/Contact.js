@@ -9,9 +9,9 @@ function Contact() {
             <div className='flex flex-col'>
                 <div className='flex flex-row'>
                     <div><IconsFade icon={faLocationDot} /></div>
-                    <p className='font-bold mx-auto'>Adresse</p>
+                    <p className='font-bold mx-auto'>Région</p>
                 </div>
-                <p className='text-center'>24 Avenue Malausséna, 06000 Nice</p>
+                <p className='text-center'>Nice, Provence-Alpes-Côte D'azur</p>
             </div>
             
             <div className='flex flex-col'>
