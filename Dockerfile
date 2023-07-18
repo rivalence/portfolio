@@ -1,14 +1,11 @@
-FROM node:17-alpine as builder
+FROM node:18
 WORKDIR /app
-COPY package.json .
-COPY package-lock.json .
-RUN npm install --silent
-COPY . .
+COPY . /app
+
+RUN npm install 
+
 RUN npm run build
 
-FROM nginx:1.19.0
-WORKDIR /usr/share/nginx/html
-RUN rm -rf ./*
-COPY --from=builder /app/build .
-ENTRYPOINT [ "nginx", "-g", "daemon off;" ]
-EXPOSE 80
+EXPOSE 3000
+
+CMD [ "npm", "start" ]
