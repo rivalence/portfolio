@@ -51,7 +51,7 @@ export default function AboutMe() {
                 
 
                 {/* Cadre de centres d'intérets */}
-                <div className={interetShow ? "flex flex-row items-center gap-x-4 block p-4" : "hidden"}>
+                <div className={interetShow ? "flex flex-col md:flex-row items-center gap-y-4 md:gap-x-4 block p-4" : "hidden"}>
                     <div className='border border-gray-400 rounded p-2'>
                         <div className='flex justify-center'><img src={libraryIcon} alt='Library' className='w-15 h-10'/></div>
                         <div className='mt-4'>
