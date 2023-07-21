@@ -14,6 +14,11 @@
     p, li {
         font-size: 20px;
     }
+
+    .grid-col-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+    }
 }
 
 /* pc portable*/
@@ -31,6 +36,11 @@
 
     p, li {
         font-size: 18px;
+    }
+
+    .grid-col-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
     }
 }
 
@@ -66,6 +76,11 @@
     p, li {
         font-size: 12px;
     }
+
+    .grid-row-3 {
+        grid-template-rows: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+    }
 }
 
 @font-face {
@@ -78,10 +93,22 @@
     src: url('assets/fonts/Merienda-VariableFont_wght.ttf');
 }
 
+:root{
+    --nb-buttons: 1;
+}
+
 h1 {
     font-family: 'Irish Grover';
 }
 
 h2, p, li {
     font-family: 'Merienda';
+}
+
+.grid2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
